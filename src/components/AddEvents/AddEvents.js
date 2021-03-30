@@ -12,7 +12,7 @@ const AddEvents = () => {
       imageURL: imageURL
     }
 
-    const url = `http://localhost:4500/addEvent`;
+    const url = `https://rocky-fortress-55251.herokuapp.com/addEvent`;
     fetch(url, {
       method: 'POST',
       headers: {
